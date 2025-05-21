@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kawasaki Ninja</title>
+    <style>
+        /* *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        } */
+        body{
+            font-family: sans-serif;
+            background-color: #f7f7f7;
+            color: #111;
+        }
+        HEADER{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #000;
+            padding: 20px;
+            color: #fff;
+        }
+        nav ul{
+            
+            list-style: none;
+            display: flex;
+            gap: 100px;
+        }
+        nav ul :hover
+        {
+            background-color:coral;
+        }
+        nav ul ul :hover
+        {
+            display: block;
+            margin: ;
+            background-color:aqua;
+        }
+        nav ul ul
+        {
+            display: none;
+        }
+        nav ul :hover ul
+        {
+            display: block;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 50px;
+            background: #fff;
+        }
+        .hero-text {
+            max-width: 200px;
+        }
+        .hero-text h2 {
+            font-size: 48px;
+            color: #000;
+        }
+        .hero-text p {
+            margin: 20px 0;
+            font-size: 18px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #000;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .hero-img img {
+            width: 1000px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #000;
+            color: #fff;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>KAWASAKI</h1>
+        <nav>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="index1.html">MODEL</a></li>
+                <li><a href="service.html">SERVICES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-text">
+           <center> <h2>NINJA</h2>
+           <p> A powerful and agile sport bike, the kawasaki ninja is designed for speed and performance.</p></center>
+            <a href="#" class="btn"> Learn More</a>
+        </div>
+        <div class="hero-img">
+            <img src="kawasaki pic/2.jpeg" alt="kawasaki ninja">
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 kawasaki Ninja. All right reserved.</p>
+    </footer>
+</body>
+</html>
